@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _islower - shows 1 if the letter is lower cas
  * @c: the caracter in ASCII
