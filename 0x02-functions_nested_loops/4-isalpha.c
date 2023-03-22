@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * _isalpha - shows 1 if the letter is a
- * alphabet.c -  Description: 'print alphabet in lowercase'
- * @c : the caracter in ASCII
- * Return _isalpha : 1 for letters 0 for the rest.
+ * _isalpha - checks for alphabetic character
+ * @c: the character to be checked
+ * Return: 1 if c is a letter, 0 otherwise
  */
 int _isalpha(int c)
 {
