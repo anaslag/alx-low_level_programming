@@ -4,7 +4,7 @@
  *@s: the string.
  *Return: the length of the string.
  */
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
 	int longit = 0;
 
