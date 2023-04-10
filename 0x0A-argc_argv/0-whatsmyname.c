@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/*
- * function main : prints program followed by a new line
- * @argc : int
- * @argv : list
- * Return : 0
+/**
+ * main - prints program, followed by a new line.
+ * @argc: int.
+ * @argv: list.
+ * Return: 0.
  */
 int main(int argc, char const *argv[])
 {
