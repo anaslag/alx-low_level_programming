@@ -13,9 +13,9 @@ char *str_concat(char *s1, char *s2)
 	int i = 0, j = 0, sz1 = 0, sz2 = 0;
 
 	while (s1 && s1[sz1])
-		len1++;
+		sz1++;
 	while (s2 && s2[sz2])
-		len2++;
+		sz2++;
 
 	s3 = malloc(sizeof(char) * (sz1 + sz2 + 1));
 	if (s3 == NULL)
@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1)
 	{
-		while (i < len1)
+		while (i < sz1)
 		{
 			s3[i] = s1[i];
 			i++;
