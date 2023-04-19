@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * get_op_func - Selects the good function to use
- * @s: The operator as argument
+ * @x: The operator as argument
  * Return: A pointer to the function corresponded
  */
 int (*get_op_func(char *x))(int, int)
