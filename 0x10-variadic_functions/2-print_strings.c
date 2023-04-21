@@ -5,7 +5,7 @@
 /**
  * print_strings - This function prints strings, followed by a new line.
  * @separator: The string to be printed between other strings printed
- * @n: The number of strings in the function
+ * @x: The number of strings in the function
  * @...: A variable number of strings that needs to be printed.
  *
  * Description: If separator is NULL, it will not  not be printed.
