@@ -8,17 +8,17 @@
  */
 size_t print_list(const list_t *x)
 {
- size_t s = 0;
+	size_t s = 0;
 
- while (x)
- {
- if (!x->str)
- printf("[0] (nil)\n");
- else
- printf("[%u] %s\n", x->len, x->str);
- x = x->next;
- s++;
- }
+	while (x)
+	{
+		if (!x->str)
+			printf("[0] (nil)\n");
+		else
+			printf("[%u] %s\n", x->len, x->str);
+		x = x->next;
+		s++;
+	}
 
- return (s);
+	return (s);
 }
