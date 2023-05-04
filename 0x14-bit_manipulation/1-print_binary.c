@@ -2,7 +2,7 @@
 
 /**
  * print_binary - funct prints the binary equvlt of a decimal num
- * @n: number that is to be printed in binary 
+ * @n: number that is to be printed in binary
  */
 void print_binary(unsigned long int n)
 {
